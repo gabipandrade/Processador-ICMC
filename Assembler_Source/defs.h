@@ -110,6 +110,7 @@
 #define INPUT_CODE              96
 #define OUTPUT_CODE             97
 #define SOUND_CODE              98
+#define ABS_CODE                99
 
 /* Definicoes dos op codes (binarios em strings) */
 
@@ -138,7 +139,7 @@
 #define DIV             "100011"
 #define INC             "100100"
 #define LMOD            "100101"
-
+#define ABS             "101010"
 
 /* Logic Instructions (All should begin with "01"): */
 #define LAND            "010010"
@@ -323,6 +324,7 @@
 #define SETC_STR                "SETC"
 #define CLEARC_STR              "CLEARC"
 
+#define ABS_STR                 "ABS"
 
 /* Definicoes dos codigos dos registradores */
 #define REG0_CODE 0
