@@ -2402,6 +2402,9 @@ int BuscaInstrucao(char * nome)
     {
         return BNZ_CODE;
     }
+    else if(strcmp(str_tmp,ABS_STR)==0){
+	return ABS_CODE;
+    }
     else if (strcmp(str_tmp,BC_STR) == 0)
     {
         return BC_CODE;
